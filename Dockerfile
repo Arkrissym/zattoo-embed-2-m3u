@@ -6,5 +6,6 @@ COPY docker_run.sh /
 
 RUN pip install -r requirements.txt
 RUN mkdir /out
+RUN chmod +x /docker_run.sh
 
-CMD [ "sh", "-c", "/docker_run.sh" ]
+ENTRYPOINT [ "/docker_run.sh" ]
