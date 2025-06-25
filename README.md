@@ -5,7 +5,7 @@ To find the required "channel name" open your browsers developer tools and searc
 #### Example docker-compose.yml
 ``` yml
 services:
-  systa-rest:
+  app:
     image: ghcr.io/arkrissym/zattoo-embed-2-m3u:main
     restart: always
     environment:
