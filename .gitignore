@@ -1,2 +1,4 @@
 out/
+.venv/
 docker-compose.yml
+in.m3u
